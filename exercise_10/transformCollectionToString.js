@@ -17,3 +17,11 @@
  * input: []
  * output: ""
  */
+
+export function transformCollectionToString(collection) {
+   if (collection.length > 0) {
+       return collection.join(' | ');
+   } else {
+       return '';
+   }
+}

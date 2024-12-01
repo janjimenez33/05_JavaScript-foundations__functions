@@ -9,3 +9,11 @@
  * hint 👉 array should be treated in a different way. Use Array.isArray() to check it
  * docu 👉 https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
  */
+
+export function isTypeOf(value, type) {
+
+    if (type === 'array') {
+        return Array.isArray(value);
+    }
+    return typeof value === type;
+}
