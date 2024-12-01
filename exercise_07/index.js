@@ -1,5 +1,5 @@
 //import and execute
-import isTypeOf from './isTypeOf.js';
+import { isTypeOf } from './isTypeOf.js';
 
 console.log(isTypeOf(33, 'number'));
 console.log(isTypeOf('jan', 'string'));
