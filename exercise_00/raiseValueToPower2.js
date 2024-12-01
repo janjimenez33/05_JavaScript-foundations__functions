@@ -13,6 +13,7 @@
  * @param {number} base
  * @returns number
  */
+
 const raiseValueToPower2 = function (base) {
   const result = Math.pow(base, 2);
 

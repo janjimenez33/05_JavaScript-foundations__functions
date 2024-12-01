@@ -3,3 +3,8 @@
  * input: number (limit)
  * output: number
  */
+
+export function generateRandomNumberInRange(limit) {
+    
+    return Math.round(Math.random() * limit);
+}

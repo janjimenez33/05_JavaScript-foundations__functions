@@ -3,3 +3,13 @@
  * input: string (sentence)
  * output: number
  */
+
+export function getTotalWordsFromString(sentence) {
+    
+    if (typeof sentence !== 'string') {
+        throw new Error('Input must be a string');
+    }
+
+    const words = sentence.trim().split(/\s+/);
+    return words.length;
+}
