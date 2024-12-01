@@ -5,7 +5,7 @@
  * output: boolean
  */
 
-export function isAdditionGreaterThanFifty(summand1, summand2) {
+export default function isAdditionGreaterThanFifty(summand1, summand2) {
 
     return (summand1 + summand2) >= 50;
 }

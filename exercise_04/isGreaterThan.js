@@ -5,7 +5,7 @@
  * output: boolean
  */
 
-export function isGreaterThan(value, threshold) {
+export default function isGreaterThan(value, threshold) {
     
     return value > threshold;
 }

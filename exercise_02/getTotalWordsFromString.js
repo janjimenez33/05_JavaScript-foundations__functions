@@ -4,7 +4,7 @@
  * output: number
  */
 
-export function getTotalWordsFromString(sentence) {
+export default function getTotalWordsFromString(sentence) {
     
     if (typeof sentence !== 'string') {
         throw new Error('Input must be a string');
