@@ -1,5 +1,5 @@
 //import and execute
-import { isAdditionGreaterThanFifty } from './isAdditionGreaterThanFifty.js';
+const isAdditionGreaterThanFifty = require('./isAdditionGreaterThanFifty');
 
 const result = isAdditionGreaterThanFifty(30, 25);
 

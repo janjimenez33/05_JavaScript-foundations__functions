@@ -5,7 +5,17 @@
  * output: boolean
  */
 
-export function isGreaterThan(value, threshold) {
-    
-    return value > threshold;
+/**
+ * Check whether one number is greater than a given number
+ * @param {number} value
+ * @param {number} threshold
+ * @returns {boolean}
+ */
+
+function isGreaterThan(value, threshold) {
+
+  return value > threshold;
+  
 }
+
+module.exports = isGreaterThan;

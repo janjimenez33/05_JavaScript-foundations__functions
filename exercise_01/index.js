@@ -1,5 +1,5 @@
 //import and execute
-import getDistanceFromThreshold from './getDistanceFromThreshold.js';
+const getDistanceFromThreshold = require('./getDistanceFromThreshold');
 
 const value = 33;
 const threshold = 5;

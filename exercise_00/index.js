@@ -1,4 +1,4 @@
 //import and execute
-import raiseValueToPower2 from "./raiseValueToPower2.js";
+const raiseValueToPower2 = require("./raiseValueToPower2");
 
 console.log("raiseValueToPower2", raiseValueToPower2(2));

@@ -1,5 +1,5 @@
 //import and execute
-import { generateRandomNumberInRange } from './generateRandomNumberInRange.js';
+const generateRandomNumberInRange = require('./generateRandomNumberInRange');
 
 const limit = 10;
 const randomNumber = generateRandomNumberInRange(limit);

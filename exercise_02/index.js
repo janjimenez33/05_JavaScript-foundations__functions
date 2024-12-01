@@ -1,5 +1,5 @@
 //import and execute
-import getTotalWordsFromString from './getTotalWordsFromString.js';
+const getTotalWordsFromString = require('./getTotalWordsFromString');
 
 const sentence = "This is a sample sentence to count words.";
 const wordCount = getTotalWordsFromString(sentence);

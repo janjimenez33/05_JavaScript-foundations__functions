@@ -5,7 +5,17 @@
  * output: boolean
  */
 
-export function isAdditionGreaterThanFifty(summand1, summand2) {
+/**
+ * Check a pair of numbers and return true if their sum is 50 or greater than 50
+ * @param {number} summand1
+ * @param {number} summand2
+ * @returns {boolean}
+ */
+
+function isAdditionGreaterThanFifty(summand1, summand2) {
 
     return (summand1 + summand2) >= 50;
-}
+    
+  }
+  
+  module.exports = isAdditionGreaterThanFifty;

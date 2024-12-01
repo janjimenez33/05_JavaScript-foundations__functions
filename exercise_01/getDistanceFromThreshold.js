@@ -13,7 +13,7 @@
  */
 
 const getDistanceFromThreshold = function (value, threshold) {
-    return value - threshold;
-  };
-  
-  export default getDistanceFromThreshold;
+  return value - threshold;
+};
+
+module.exports = getDistanceFromThreshold;

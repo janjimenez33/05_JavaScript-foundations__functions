@@ -16,8 +16,8 @@
 
 const raiseValueToPower2 = function (base) {
   const result = Math.pow(base, 2);
-
+  
   return result;
 };
 
-export default raiseValueToPower2;
+module.exports = raiseValueToPower2;
