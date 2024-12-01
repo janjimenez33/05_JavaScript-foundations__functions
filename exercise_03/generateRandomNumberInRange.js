@@ -4,7 +4,7 @@
  * output: number
  */
 
-export default function generateRandomNumberInRange(limit) {
+export function generateRandomNumberInRange(limit) {
     
     return Math.round(Math.random() * limit);
 }
