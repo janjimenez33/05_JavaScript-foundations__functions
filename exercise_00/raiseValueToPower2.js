@@ -13,11 +13,10 @@
  * @param {number} base
  * @returns number
  */
-
 const raiseValueToPower2 = function (base) {
   const result = Math.pow(base, 2);
-  
+
   return result;
 };
 
-module.exports = raiseValueToPower2;
+export default raiseValueToPower2;

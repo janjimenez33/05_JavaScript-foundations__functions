@@ -1,5 +1,5 @@
 //import and execute
-const isGreaterThan = require('./isGreaterThan');
+import isGreaterThan from './isGreaterThan.js';
 
 const value = 33;
 const threshold = 5;
