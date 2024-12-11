@@ -17,6 +17,11 @@
  * output: "this is short one."
  */
 
+/**
+ * @param {string} sentence
+ * @returns {string}
+ */
+
 export function formatStringByWordsLength(sentence) {
 
    const words = sentence.split(' ');

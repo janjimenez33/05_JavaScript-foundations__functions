@@ -4,6 +4,11 @@
  * output: boolean
  */
 
+/**
+ * @param {Array} collection 
+ * @returns {boolean}
+ */
+
 export function checkCollectionHasElements(collection) {
     
     if (!Array.isArray(collection)) {

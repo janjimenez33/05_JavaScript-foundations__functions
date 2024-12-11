@@ -4,12 +4,15 @@
  * output: number
  */
 
-export function getTotalWordsFromString(sentence) {
-    
-    if (typeof sentence !== 'string') {
-        throw new Error('Input must be a string');
-    }
+/**
+ * 
+ * @param {string} sentence 
+ * @returns {number}
+ */
 
-    const words = sentence.trim().split(/\s+/);
+export function getTotalWordsFromString(sentence) {
+
+    const words = sentence.trim().split("");
+
     return words.length;
 }

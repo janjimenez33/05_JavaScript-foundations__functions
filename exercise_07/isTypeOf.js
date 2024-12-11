@@ -10,6 +10,12 @@
  * docu 👉 https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
  */
 
+/**
+ * @param {*} value
+ * @param {'string' | 'number' | 'boolean' | 'array'} type
+ * @returns {boolean}
+ */
+
 export function isTypeOf(value, type) {
 
     if (type === 'array') {

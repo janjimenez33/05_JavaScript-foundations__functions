@@ -5,6 +5,12 @@
  * output: boolean
  */
 
+/**
+ * @param {number} value
+ * @param {number} threshold
+ * @returns {boolean}
+ */
+
 export default function isGreaterThan(value, threshold) {
     
     return value > threshold;

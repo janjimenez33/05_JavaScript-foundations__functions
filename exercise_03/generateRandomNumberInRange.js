@@ -4,6 +4,11 @@
  * output: number
  */
 
+/**
+ * @param {number} limit
+ * @returns {number}
+ */
+
 export function generateRandomNumberInRange(limit) {
     
     return Math.round(Math.random() * limit);
