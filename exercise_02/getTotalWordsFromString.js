@@ -3,3 +3,16 @@
  * input: string (sentence)
  * output: number
  */
+
+/**
+ * 
+ * @param {string} sentence 
+ * @returns {number}
+ */
+
+export function getTotalWordsFromString(sentence) {
+
+    const words = sentence.trim().split("");
+
+    return words.length;
+}
